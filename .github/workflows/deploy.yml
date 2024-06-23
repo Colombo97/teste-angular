@@ -3,7 +3,7 @@ name: Deploy Angular App to Raspberry Pi
 on:
   push:
     branches:
-      - main  # ou o branch que você deseja monitorar
+      - master  # ou o branch que você deseja monitorar
 
 jobs:
   build-and-deploy:
