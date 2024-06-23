@@ -31,7 +31,7 @@ jobs:
 
     - name: Copy files to Raspberry Pi
       run: |
-        scp -r dist/teste-angular/* pi@\[2804:d59:8a14:ad00:b29b:4c66:ded3:3779\]:/usr/share/nginx/html
+        scp -6 -r dist/teste-angular/* pi@\[2804:d59:8a14:ad00:b29b:4c66:ded3:3779\]:/usr/share/nginx/html
 
     - name: Restart Nginx
       run: |
