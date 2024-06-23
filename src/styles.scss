@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+* {
+    font-family: "Manrope", sans-serif;
+}
+
+h1{
+    line-height: 110%;
+    font-size: 25.63px;
+    margin: 0;
+}
+
+h2{
+    line-height: 110%;
+    font-size: 20px;
+    margin: 0;
+}
+
+p{
+    line-height: 14px;
+    font-size: 12px;
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    /* Add any additional styles for buttons here */
+}
+
+
+.button-primary {
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+
+.button-secondary {
+    background-color: #4246FF;
+    color: white;
+}
+
